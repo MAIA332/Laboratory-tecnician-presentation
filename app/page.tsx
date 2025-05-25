@@ -209,7 +209,15 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 0.1 }}
                   className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-3 sm:mb-4"
                 >
-                  TÉCNICO DE LABORATÓRIO: UM PROFISSIONAL ESSENCIAL
+                  TÉCNICO DE LABORATÓRIO, UM PROFISSIONAL ESSENCIAL
+                </motion.h1>
+                 <motion.h1
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-3 sm:mb-4"
+                >
+                  FEIRA DAS PROFISSÕES
                 </motion.h1>
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
@@ -1028,7 +1036,19 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <Beaker className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mr-2" />
-              <span className="font-bold text-sm sm:text-base">Técnico de Laboratório</span>
+              <span className="font-bold text-sm sm:text-base">Ayla Sampaio N°4</span>
+            </div>
+            <div className="flex items-center mb-4 md:mb-0">
+              <Beaker className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mr-2" />
+              <span className="font-bold text-sm sm:text-base">Carlos Henrique N°6</span>
+            </div>
+            <div className="flex items-center mb-4 md:mb-0">
+              <Beaker className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mr-2" />
+              <span className="font-bold text-sm sm:text-base">Edivaldo Caetano N°9</span>
+            </div>
+            <div className="flex items-center mb-4 md:mb-0">
+              <Beaker className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mr-2" />
+              <span className="font-bold text-sm sm:text-base">Robero N°32</span>
             </div>
             <div className="text-xs sm:text-sm text-blue-300">
               © {new Date().getFullYear()} - Informações sobre a carreira de Técnico de Laboratório
